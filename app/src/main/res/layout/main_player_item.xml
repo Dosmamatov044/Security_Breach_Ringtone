@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <ImageView
+          android:layout_width="100sp"
+          android:layout_height="90sp"
+          android:src="@drawable/experiment_imge"
+   android:layout_marginTop="15sp"
+          android:id="@+id/image_id"
+          />
+
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="250sp"
+      android:layout_height="60sp"
+      android:orientation="vertical"
+      android:layout_marginTop="20sp"
+      >
+      <TextView
+          android:layout_width="211sp"
+          android:layout_height="20sp"
+          android:text="Naruto Shippuden Opening 9 Lo"
+         android:layout_marginTop="10sp"
+          android:textSize="15sp"
+          android:id="@+id/name_id"
+          android:maxLines="1"
+
+          android:singleLine="true"
+          android:ellipsize="end"
+android:drawablePadding="10dp"
+
+          />
+      <TextView
+          android:layout_width="200sp"
+          android:layout_height="30sp"
+          android:text="Naruto"
+          android:id="@+id/description_id"
+          />
+
+
+
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
+      <ImageView
+          android:layout_width="30sp"
+          android:layout_height="30sp"
+          android:src="@drawable/ic_dehaze"
+         android:layout_marginTop="40sp"
+          android:id="@+id/burger_id"
+
+
+          />
+  </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
